@@ -2,12 +2,14 @@ name: Pokemon Watcher
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/10 * * * *" # Läuft jetzt alle 10 Minuten
   workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # WICHTIG: Erlaubt dem Bot, die state.json wieder hochzuladen
 
     steps:
       - uses: actions/checkout@v4
@@ -23,7 +25,7 @@ jobs:
       - name: Run watcher
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}        
-        run: python watcher.py
+        run: python watcher.py # Führt deine watcher.py aus
 
       - name: Commit state.json
         run: |
@@ -32,6 +34,7 @@ jobs:
 
           git add state.json
 
+          # Wenn sich nichts geändert hat, bricht das Skript nicht ab
           git diff --cached --quiet || git commit -m "Update state"
 
           git push
