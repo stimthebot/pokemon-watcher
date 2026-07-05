@@ -1,4 +1,3 @@
-import time
 import json
 import requests
 import os
@@ -8,14 +7,11 @@ from datetime import datetime
 # =========================
 # CONFIG
 # =========================
-
-INTERVAL = 600
 STATE_FILE = "state.json"
-
 DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
 SITES = {
@@ -30,7 +26,6 @@ SITES = {
 # =========================
 # STATE
 # =========================
-
 def load_state():
     try:
         with open(STATE_FILE, "r", encoding="utf-8") as f:
@@ -40,24 +35,20 @@ def load_state():
 
 def save_state(state):
     with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2)
+        json.dump(state, f, indent=2, ensure_ascii=False)
 
 # =========================
 # DISCORD
 # =========================
-
 def send_discord(shop, title, url):
+    if not DISCORD_WEBHOOK:
+        print(f"Webhook nicht gesetzt. Produkt (wäre gesendet worden): {title}")
+        return
     try:
         requests.post(
             DISCORD_WEBHOOK,
             json={
-                "content": f"""🆕 Neues Pokémon Produkt
-
-🏪 Shop: {shop}
-📦 Produkt: {title}
-🔗 Link: {url}
-🕒 {datetime.now().strftime('%d.%m.%Y %H:%M')}
-"""
+                "content": f"🆕 Neues Pokémon Produkt\n\n🏪 Shop: {shop}\n📦 Produkt: {title}\n🔗 Link: {url}\n🕒 {datetime.now().strftime('%d.%m.%Y %H:%M')}"
             },
             timeout=10
         )
@@ -65,16 +56,15 @@ def send_discord(shop, title, url):
         print("Discord Fehler:", e)
 
 # =========================
-# FETCH
+# FETCH & CLEAN
 # =========================
-
 def fetch(url):
-    r = requests.get(url, headers=HEADERS, timeout=20)
-    return r.text, r.status_code
-
-# =========================
-# CLEAN
-# =========================
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        return r.text, r.status_code
+    except Exception as e:
+        print(f"Fehler beim Laden von {url}: {e}")
+        return "", 500
 
 def clean(t):
     if not t:
@@ -84,7 +74,6 @@ def clean(t):
 # =========================
 # REAL PRODUCT FILTER
 # =========================
-
 def is_real_product(title, url):
     if not title:
         return False
@@ -93,22 +82,9 @@ def is_real_product(title, url):
     url = url.lower()
 
     bad_keywords = [
-        "login",
-        "datenschutz",
-        "impressum",
-        "newsletter",
-        "warenkorb",
-        "konto",
-        "facebook",
-        "instagram",
-        "tiktok",
-        "youtube",
-        "startseite",
-        "versand",
-        "agb",
-        "faq",
-        "kontakt",
-        "zurück"
+        "login", "datenschutz", "impressum", "newsletter", "warenkorb", 
+        "konto", "facebook", "instagram", "tiktok", "youtube", 
+        "startseite", "versand", "agb", "faq", "kontakt", "zurück"
     ]
 
     if any(b in title for b in bad_keywords):
@@ -117,19 +93,14 @@ def is_real_product(title, url):
     if len(title) < 8:
         return False
 
-    # muss etwas mit pokemon / tcg / produkt sein
     if not any(x in title for x in ["pokemon", "pokémon", "tcg", "booster", "box", "display", "tin", "deck"]):
-        return False
-
-    if "/product" not in url and "pokemon" not in url:
         return False
 
     return True
 
 # =========================
-# PARSER (CLEAN)
+# PARSER
 # =========================
-
 def parse_generic(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
     products = []
@@ -140,7 +111,7 @@ def parse_generic(html, base_url):
             continue
 
         title = clean(a.get_text())
-
+        
         if href.startswith("/"):
             url = base_url + href.split("?")[0]
         else:
@@ -156,76 +127,57 @@ def parse_generic(html, base_url):
 # =========================
 # SHOP RUN
 # =========================
-
 def run_shop(name, url, state):
-    print(f"\n[{name}]")
-
+    print(f"\n[{name}] Prüfe...")
     html, status = fetch(url)
-    print("STATUS:", status)
-
+    
     if status != 200:
-        print("Fehler beim Laden")
+        print(f"Fehler: Status {status}")
         return state
 
     base_url = "/".join(url.split("/")[:3])
-
     products = parse_generic(html, base_url)
+    print(f"{len(products)} potenzielle Produkte gefunden.")
 
-    print(f"{len(products)} echte Produkte gefunden.")
-
+    # Bestehende URLs laden, um Duplikate zu vermeiden
     known = state.get(name, [])
+    known_urls = {p["url"] if isinstance(p, dict) else p for p in known}
 
-    known_urls = set()
-
-    for p in known:
-        if isinstance(p, dict):
-            known_urls.add(p.get("url", ""))
-        elif isinstance(p, str):
-            known_urls.add(p)
-
-    new_products = []
+    new_list = list(known)
 
     for title, url in products:
         if url not in known_urls:
-            print("Neues Produkt:", title)
-
+            print("✨ Neues Produkt gefunden:", title)
             send_discord(name, title, url)
-
-            new_products.append({
+            
+            new_list.append({
                 "title": title,
                 "url": url
             })
+            known_urls.add(url)
 
-    state[name] = known + new_products
-
+    state[name] = new_list
     return state
 
 # =========================
-# MAIN
+# MAIN (Ohne while-Schleife)
 # =========================
-
 def main():
     print("=" * 60)
-    print("Pokemon Multi-Shop Watcher V4 (QUALITY FILTER)")
+    print("Pokemon Multi-Shop Watcher V5 (GitHub Actions Ready)")
     print("=" * 60)
 
     state = load_state()
 
-    while True:
+    # Jeder Shop wird genau einmal geprüft
+    for name, url in SITES.items():
         try:
-            for name, url in SITES.items():
-                state = run_shop(name, url, state)
-
-            save_state(state)
-
-            print("\nNächster Check in 10 Minuten...")
-            print("-" * 60)
-
-            time.sleep(INTERVAL)
-
+            state = run_shop(name, url, state)
         except Exception as e:
-            print("GLOBAL ERROR:", e)
-            time.sleep(30)
+            print(f"Fehler beim Prüfen von {name}: {e}")
+
+    save_state(state)
+    print("\nDurchlauf beendet. State wurde lokal aktualisiert.")
 
 if __name__ == "__main__":
     main()
