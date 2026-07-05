@@ -1,1 +1,626 @@
-{}
+{
+  "Feenturm": [
+    {
+      "title": "Magic the Gathering - Booster",
+      "url": "https://feenturm.de/collections/magic-the-gathering-booster"
+    },
+    {
+      "title": "Magic the Gathering - Displays",
+      "url": "https://feenturm.de/collections/magic-the-gathering-displays"
+    },
+    {
+      "title": "Magic the Gathering - Theme Booster",
+      "url": "https://feenturm.de/collections/magic-the-gathering-theme-booster"
+    },
+    {
+      "title": "Disney Lorcana - Booster Displays",
+      "url": "https://feenturm.de/collections/lorcana-booster-displays"
+    },
+    {
+      "title": "Disney Lorcana - Booster",
+      "url": "https://feenturm.de/collections/disney-lorcana-booster"
+    },
+    {
+      "title": "Pokemon - Sammelkartenspiel",
+      "url": "https://feenturm.de/collections/pokemon"
+    },
+    {
+      "title": "Pokemon - Wachsendes Chaos",
+      "url": "https://feenturm.de/collections/pokemon-wachsendes-chaos"
+    },
+    {
+      "title": "Pokemon - Optimale Ordnung",
+      "url": "https://feenturm.de/collections/pokemon-optimale-ordnung"
+    },
+    {
+      "title": "Pokemon - Erhabene Helden",
+      "url": "https://feenturm.de/collections/pokemon-erhabene-helden"
+    },
+    {
+      "title": "Pokemon - Tassen, Plüschies und mehr...",
+      "url": "https://feenturm.de/collections/pokemon-tassen-pluschies-und-mehr"
+    },
+    {
+      "title": "Pokemon - Zubehör",
+      "url": "https://feenturm.de/collections/pokemon-zubehor"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Beyond the Brave",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-beyon-the-brave"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Battles of Legend: Glorious Gallery",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-battles-of-legend-glorious-gallery"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Blazing Dominion",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-blazing-dominion"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Mega-Pack Tin 2025",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-mega-pack-tin-2025"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Doom of Dimensions",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-doom-of-dimensions"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Legendary Collection Kaiba",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-legendary-collection-kaiba"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - The Chronicles Deck: The Fallen & The Virtuous",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-the-chronicles-deck-the-fallen-the-virtuous"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Legendary 5D's Decks",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-legendary-5ds-decks"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Retro Pack 2",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-retro-pack-2"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Phantom Revenge",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-phantom-revenge"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Battles of Legend: Monster Mayhem",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-battles-of-legend-monster-mayhem"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Justice Hunters",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-justice-hunters"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Duelist`s Advance",
+      "url": "https://feenturm.de/collections/yu-gi-oh-duelist-s-advance"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Alliance Insight",
+      "url": "https://feenturm.de/collections/yu-gi-oh-alliance-insight"
+    },
+    {
+      "title": "Yu-Gi-Oh! TCG - Ältere Editionen",
+      "url": "https://feenturm.de/collections/yu-gi-oh-tcg-altere-editionen"
+    },
+    {
+      "title": "Cyberpunk TCG",
+      "url": "https://feenturm.de/collections/cyberpunk-tcg"
+    },
+    {
+      "title": "Dragonball TCG",
+      "url": "https://feenturm.de/collections/dragon-ball"
+    },
+    {
+      "title": "One Piece TCG",
+      "url": "https://feenturm.de/collections/one-piece-tcg-1"
+    },
+    {
+      "title": "Riftbound: League of Legends TCG",
+      "url": "https://feenturm.de/collections/riftbound-league-of-legends-tcg"
+    },
+    {
+      "title": "Dragon Shield - Deck Boxen",
+      "url": "https://feenturm.de/collections/deck-boxen"
+    },
+    {
+      "title": "Pokémon TCG - 30th Celebration Ultra-Premium Collection – Deutsch – Jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-30th-celebration-ultra-premium-collection-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokémon TCG - 30th Celebration Elite Trainer Box – Deutsch – Jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-30th-celebration-elite-trainer-box-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokemon TCG - Mask of Change - Booster-Display (30 Booster) - koreanisch",
+      "url": "https://feenturm.de/products/pokemon-tcg-mask-of-change-booster-display-30-booster-koreanisch"
+    },
+    {
+      "title": "Pokémon TCG – 30th Celebration Display – jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-tcg-30th-celebration-booster-display-de-vorbestellung"
+    },
+    {
+      "title": "Pokémon TCG - Erste Partner Illustrations-Kollektion - Serie 3 - deutsch - jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-tcg-erste-partner-illustrations-kollektion-serie-3-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokémon – Glurak EX Super Premium-Kollektion - Englisch",
+      "url": "https://feenturm.de/products/pokemon-glurak-ex-super-premium-kollektion-deutsch-kopie"
+    },
+    {
+      "title": "Pokemon TCG - MBE03 - Mega-Quajutsu ex Premium-Kollektion - jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-tcg-mbe03-mega-quajutsu-ex-premium-kollektion-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokémon - Mega Entwicklung: Dunkelnacht - Top Trainer Box - deutsch - jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-mega-entwicklung-dunkelnacht-top-trainer-box-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokémon - Mega Entwicklung: Dunkelnacht - 3er-Blister - deutsch - jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-mega-entwicklung-dunkelnacht-3er-blister-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokémon - Mega Entwicklung: Dunkelnacht - Booster Bundle - deutsch - jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-mega-entwicklung-dunkelnacht-booster-bundle-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokémon - Mega Entwicklung: Dunkelnacht - Booster Display (36 Booster) - deutsch - jetzt vorbestellen",
+      "url": "https://feenturm.de/products/pokemon-mega-entwicklung-dunkelnacht-booster-display-36-booster-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokemon PKM Liga-Kampfdeck Team Rockets Mewtu",
+      "url": "https://feenturm.de/products/pokemon-pkm-liga-kampfdeck-team-rockets-mewtu"
+    },
+    {
+      "title": "Pokemon TCG - TIN #128 Mega Gengar - Deutsch",
+      "url": "https://feenturm.de/products/pokemon-tcg-tin-128-mega-gengar-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokemon TCG - TIN #129 Mega-Pixi - Deutsch",
+      "url": "https://feenturm.de/products/pokemon-tcg-tin-129-mega-pixi-deusch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokemon TCG - Erste Partner Illustrations-Kollektion - Serie 2 - deutsch - jetzt vorbestellen!",
+      "url": "https://feenturm.de/products/pokemon-tcg-erste-partner-illustrations-kollektion-serie-2-deutsch-jetzt-vorbestellen"
+    },
+    {
+      "title": "Pokemon TCG - Illumina City Mini Tins - Deutsch - Blindpick",
+      "url": "https://feenturm.de/products/pokemon-tcg-illumina-city-mini-tins-deutsch-blindpick-jetzt-vorbestellen"
+    }
+  ],
+  "TCGViert Pokemon": [
+    {
+      "title": "Pokémon 🧢",
+      "url": "https://tcgviert.com/collections/pokemon"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/%F0%9F%93%A6-deutsche-displays/pokemon-display-deutsch"
+    },
+    {
+      "title": "Top Trainer Boxen",
+      "url": "https://tcgviert.com/collections/pokemon-top-trainer-boxen-deutsch/pokemon-TTB-deutsch"
+    },
+    {
+      "title": "Tins / Blister",
+      "url": "https://tcgviert.com/collections/pokemon-blister-tins-deutsch/pokemon-tin-%2F-blister-deutsch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-deutsch/pokemon-booster-deutsch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/%F0%9F%93%A6-englische-displays/pokemon-display-englisch"
+    },
+    {
+      "title": "Elite Trainer Boxen",
+      "url": "https://tcgviert.com/collections/pokemon-top-trainer-boxen-englisch/pokemon-etb-englisch"
+    },
+    {
+      "title": "Tins / Blister",
+      "url": "https://tcgviert.com/collections/pokemon-tins-blister-englisch/pokemon-tin-%2F-blister-englisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-englisch/pokemon-booster-englisch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/%F0%9F%8E%8C-japanische-displays/pokemon-display-japanisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-japanisch/pokemon-booster-japanisch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/chinesische-displays/pokemon-display-chinesisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-chinesisch/pokemon-booster-chinesisch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/koreanische-displays/pokemon-display-koreanisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-koreanisch/pokemon-booster-koreanisch"
+    },
+    {
+      "title": "Boxbreaks 🎥",
+      "url": "https://tcgviert.com/collections/boxbreak/boxbreak"
+    },
+    {
+      "title": "Deckboxen🧰",
+      "url": "https://tcgviert.com/collections/deckboxen/deckboxen"
+    },
+    {
+      "title": "Weitere TCG´s 🎴",
+      "url": "https://tcgviert.com/collections/weitere-tcg-s"
+    },
+    {
+      "title": "Altered TCG ✨",
+      "url": "https://tcgviert.com/collections/altered-tcg/Altered"
+    },
+    {
+      "title": "Dragon Ball TCG 🟠",
+      "url": "https://tcgviert.com/collections/dragonball/dragonball"
+    },
+    {
+      "title": "Weiß Schwarz TCG 🖋️",
+      "url": "https://tcgviert.com/collections/weiss-schwarz-tcg-%F0%9F%96%8B%EF%B8%8F"
+    },
+    {
+      "title": "Pokémon 🧢 🎒",
+      "url": "https://tcgviert.com/collections/merchandise-pokemon/merchandising-pokemon"
+    },
+    {
+      "title": "Pokémon TCG | Gem Pack Vol. 5 (CBB5C) | Display (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-gem-pack-vol-5-cbb5c-display-chn"
+    },
+    {
+      "title": "Pokémon TCG: Prismatic Evolutions (SV8.5) - Elite Trainer Box (EN) (Limit 2/Kunde) (NM)",
+      "url": "https://tcgviert.com/products/preis-pokemon-tcg-prismatic-evolutions-sv8-5-elite-trainer-box-en-limit-2-kunde-preorder-mitte-mai"
+    },
+    {
+      "title": "Pokémon TCG | Salamence ex & Reshiram ex | Premium Collection (EN) (Limit: 1/Kunde)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-salamence-ex-reshiram-ex-premium-collection-en-limit-1-kunde"
+    },
+    {
+      "title": "Pokémon TCG: Gem Pack Vol. 4 (CBB4C) - Display (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-gem-pack-vol-4-cbb4c-display-chn"
+    },
+    {
+      "title": "Pokémon TCG | 30th Anniversary Celebration Original Partner Vol. 1 (CN) | Card Set",
+      "url": "https://tcgviert.com/products/pokemon-tcg-30th-anniversary-celebration-original-partner-card-set-vol-1-chn"
+    },
+    {
+      "title": "Pokémon TCG | Brilliant Counterattack | Booster (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-brilliant-counterattack-booster-chn"
+    },
+    {
+      "title": "Pokémon TCG: Collect 151 Journey (151C) - Jumbo Booster (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-collect-151-journey-151c-jumbo-booster-chn"
+    },
+    {
+      "title": "Pokémon TCG: Shadow of Glory (CS5.5C) - Booster (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-shadow-of-glory-cs5-5c-booster-chn"
+    },
+    {
+      "title": "Pokemon TCG: Towering Perfection - Booster (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-towering-perfection-booster-chn"
+    },
+    {
+      "title": "Pokémon TCG | Triple Beat | Booster (KOR)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-triple-beat-booster-kor"
+    },
+    {
+      "title": "Pokemon TCG: Towering Perfection - Display (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-towering-perfection-display-chn"
+    },
+    {
+      "title": "Pokémon TCG | Mega Glurak ex | Tin Box (DE) (Random) (Limit: 2/Person)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-mega-glurak-ex-tin-box-de-random"
+    },
+    {
+      "title": "Pokémon TCG: Pokéball Tin 2025 (EN) (max. 3/person)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-pokeball-tin-2025-en-max-3-person"
+    },
+    {
+      "title": "Pokémon TCG: Team Rockets Mewtu EX - Liga-Kampfdeck (DE)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-team-rockets-mewtu-ex-liga-kampfdeck-de"
+    },
+    {
+      "title": "Pokémon TCG: Deluxe Kampf Deck - Bailonda ex (DE)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-deluxe-kampf-deck-bailonda-ex-de"
+    },
+    {
+      "title": "Pokémon TCG: Deluxe Kampf Deck - Maskagato ex (DE)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-deluxe-kampf-deck-maskagato-ex-de"
+    },
+    {
+      "title": "Pokémon TCG: Liga Kampfdeck Ur-Palkia VSTAR (DE)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-liga-kampfdeck-ur-palkia-vstar-de"
+    },
+    {
+      "title": "Pokémon TCG: Liga Kampfdeck Miraidon ex (DE)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-liga-kampfdeck-miraidon-ex-de"
+    },
+    {
+      "title": "Pokémon TCG: Baojian ex Kampfdeck (DE)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-baojian-ex-kampfdeck-de"
+    },
+    {
+      "title": "Pokémon TCG: Victory Star Guide - Booster Box (CHN)",
+      "url": "https://tcgviert.com/products/pokemon-tcg-victory-star-guide-booster-box-chn"
+    }
+  ],
+  "TCGViert Vorbestellung": [
+    {
+      "title": "Pokémon 🧢",
+      "url": "https://tcgviert.com/collections/pokemon"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/%F0%9F%93%A6-deutsche-displays/pokemon-display-deutsch"
+    },
+    {
+      "title": "Top Trainer Boxen",
+      "url": "https://tcgviert.com/collections/pokemon-top-trainer-boxen-deutsch/pokemon-TTB-deutsch"
+    },
+    {
+      "title": "Tins / Blister",
+      "url": "https://tcgviert.com/collections/pokemon-blister-tins-deutsch/pokemon-tin-%2F-blister-deutsch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-deutsch/pokemon-booster-deutsch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/%F0%9F%93%A6-englische-displays/pokemon-display-englisch"
+    },
+    {
+      "title": "Elite Trainer Boxen",
+      "url": "https://tcgviert.com/collections/pokemon-top-trainer-boxen-englisch/pokemon-etb-englisch"
+    },
+    {
+      "title": "Tins / Blister",
+      "url": "https://tcgviert.com/collections/pokemon-tins-blister-englisch/pokemon-tin-%2F-blister-englisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-englisch/pokemon-booster-englisch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/%F0%9F%8E%8C-japanische-displays/pokemon-display-japanisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-japanisch/pokemon-booster-japanisch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/chinesische-displays/pokemon-display-chinesisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-chinesisch/pokemon-booster-chinesisch"
+    },
+    {
+      "title": "Displays",
+      "url": "https://tcgviert.com/collections/koreanische-displays/pokemon-display-koreanisch"
+    },
+    {
+      "title": "Einzelbooster",
+      "url": "https://tcgviert.com/collections/pokemon-einzelbooster-koreanisch/pokemon-booster-koreanisch"
+    },
+    {
+      "title": "Boxbreaks 🎥",
+      "url": "https://tcgviert.com/collections/boxbreak/boxbreak"
+    },
+    {
+      "title": "Deckboxen🧰",
+      "url": "https://tcgviert.com/collections/deckboxen/deckboxen"
+    },
+    {
+      "title": "Weitere TCG´s 🎴",
+      "url": "https://tcgviert.com/collections/weitere-tcg-s"
+    },
+    {
+      "title": "Altered TCG ✨",
+      "url": "https://tcgviert.com/collections/altered-tcg/Altered"
+    },
+    {
+      "title": "Dragon Ball TCG 🟠",
+      "url": "https://tcgviert.com/collections/dragonball/dragonball"
+    },
+    {
+      "title": "Weiß Schwarz TCG 🖋️",
+      "url": "https://tcgviert.com/collections/weiss-schwarz-tcg-%F0%9F%96%8B%EF%B8%8F"
+    },
+    {
+      "title": "Pokémon 🧢 🎒",
+      "url": "https://tcgviert.com/collections/merchandise-pokemon/merchandising-pokemon"
+    }
+  ],
+  "Elbenwald": [
+    {
+      "title": "Zum Hauptinhalt springen",
+      "url": "#content-main"
+    },
+    {
+      "title": "TCG & Spiele",
+      "url": "https://www.elbenwald.de/tcg-spiele"
+    },
+    {
+      "title": "Pokemon - Mega-Gengar-Ex Sammelkarten Box",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-mega-gengar-ex-sammelkarten-box"
+    },
+    {
+      "title": "Pokemon - Ultra Pro: Mega Charizard X und Mega Charizard Y Sammelkarten Album",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-ultra-pro-mega-charizard-x-und-mega-charizard-y-sammelkarten-album"
+    },
+    {
+      "title": "Pokemon - Ultra Pro: Evoli Alcove Flip Kartenhüllen Box für 100 Sammelkarten",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-ultra-pro-evoli-alcove-flip-kartenhuellen-box-fuer-100-sammelkarten"
+    },
+    {
+      "title": "Pokemon - Glurak Alcove Flip Kartenhüllen Box für Sammelkarten Elite Series",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-glurak-alcove-flip-kartenhuellen-box-fuer-sammelkarten-elite-series"
+    },
+    {
+      "title": "Pokemon - Trick Room Spielmatte",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-trick-room-spielmatte"
+    },
+    {
+      "title": "Pokemon - Armarouge & Ceruledge Spielmatte",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-armarouge-ceruledge-spielmatte"
+    },
+    {
+      "title": "Pokemon - Ultra Pro: Mega Charizard Y Kartenhüllen",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-ultra-pro-mega-charizard-y-kartenhuellen"
+    },
+    {
+      "title": "Pokemon - Ultra Pro: Mega Charizard X Kartenhüllen",
+      "url": "https://www.elbenwald.de/pokemon/pokemon-ultra-pro-mega-charizard-x-kartenhuellen"
+    }
+  ],
+  "Tabletop Dragon": [
+    {
+      "title": "Adventure in a Box",
+      "url": "https://www.tabletop-dragon.de/shop_de/pnp-rollenspiele/adventure-in-a-box.html"
+    },
+    {
+      "title": "Sentinel Comics",
+      "url": "https://www.tabletop-dragon.de/shop_de/pnp-rollenspiele/sentinel-comics.html"
+    },
+    {
+      "title": "Tiny Dungeon",
+      "url": "https://www.tabletop-dragon.de/shop_de/pnp-rollenspiele/tiny-dungeon.html"
+    },
+    {
+      "title": "Cyberpunk TCG",
+      "url": "https://www.tabletop-dragon.de/shop_de/trading-card-games/cyberpunk-tcg.html"
+    },
+    {
+      "title": "DiceWyrm TCG",
+      "url": "https://www.tabletop-dragon.de/shop_de/trading-card-games/zubehor-fur-trading-card-games/dicewyrm-tcg.html"
+    },
+    {
+      "title": "Gundam TCG",
+      "url": "https://www.tabletop-dragon.de/shop_de/trading-card-games/gundam-tcg.html"
+    },
+    {
+      "title": "Aufbewahrungsboxen",
+      "url": "https://www.tabletop-dragon.de/shop_de/sonstiges/aufbewahrungsboxen.html"
+    },
+    {
+      "title": "Sammlerartikel & Geschenkboxen",
+      "url": "https://www.tabletop-dragon.de/shop_de/sonstiges/sammlerartikel-geschenkboxen.html"
+    },
+    {
+      "title": "Adventure in a Box",
+      "url": "https://www.tabletop-dragon.de/shop_de/adventure_in_a_box"
+    },
+    {
+      "title": "Altered TCG",
+      "url": "https://www.tabletop-dragon.de/shop_de/altered_tcg"
+    },
+    {
+      "title": "CyberPunk TcG",
+      "url": "https://www.tabletop-dragon.de/shop_de/cyberpunk_tcg"
+    },
+    {
+      "title": "POKEMON Funism",
+      "url": "https://www.tabletop-dragon.de/shop_de/pokemon_funism"
+    },
+    {
+      "title": "Sentinel Comics - Das Rollenspiel",
+      "url": "https://www.tabletop-dragon.de/shop_de/sentinel_comics_das_rollenspiel"
+    },
+    {
+      "title": "Tiny Dungeon",
+      "url": "https://www.tabletop-dragon.de/shop_de/tiny_dungeon"
+    },
+    {
+      "title": "Tiny Epic",
+      "url": "https://www.tabletop-dragon.de/shop_de/tiny_epic"
+    },
+    {
+      "title": "Pokémon-Sammelkartenspiel: ME02.5 Premium-Poster-Kollektion",
+      "url": "https://www.tabletop-dragon.de/shop_de/pokemon-sammelkartenspiel-me02-5-premium-poster-kollektion.html"
+    },
+    {
+      "title": "Pokémon TCG Liga-Kampfdeck Mega-Lucario-ex (DE)",
+      "url": "https://www.tabletop-dragon.de/shop_de/pokemon-tcg-liga-kampfdeck-mega-lucario-ex-de.html"
+    },
+    {
+      "title": "Pokémon TCG – 3-Pack-Blister „Mega-Entwicklung: Wachsendes Chaos“ (PKM ME04)",
+      "url": "https://www.tabletop-dragon.de/shop_de/pokemon-tcg-3-pack-blister-mega-entwicklung-wachsendes-chaos-pkm-me04.html"
+    },
+    {
+      "title": "Pokémon Premium-Kollektion Juli 2026 – Zubehör – Pokémon TCG",
+      "url": "https://www.tabletop-dragon.de/shop_de/pokemon-premium-kollektion-juli-2026.html"
+    },
+    {
+      "title": "Booster Packs 2Artikel",
+      "url": "https://www.tabletop-dragon.de/shop_de/trading-card-games/pokemon/vorbestellung/booster_packs.html"
+    }
+  ],
+  "Take-It-Shop": [
+    {
+      "title": "Mega Construx Pokemon Jumbo Glumanda, Mattel",
+      "url": "https://take-it-shop.de/p/mega-construx-pokemon-jumbo-glumanda-mattel"
+    },
+    {
+      "title": "SALEPokemon Lichterkette Fairy Lights 160 cm",
+      "url": "https://take-it-shop.de/p/pokemon-lichterkette-fairy-lights-160-cm"
+    },
+    {
+      "title": "Pokémon Plüsch Pikachu 25 Jahre 30cm silber Pokemon Select, limitierte Auflage, ab 2 Jahren, Boti",
+      "url": "https://take-it-shop.de/p/pokemon-pluesch-pikachu-25-jahre-30cm-silber-pokemon-select-limitierte-auflage-ab-2-jahren-boti"
+    },
+    {
+      "title": "NEUPokemon TCG Tin Mega-Darkrai-ex *Deutsche Version* (Vorbestellen Mitte September)",
+      "url": "https://take-it-shop.de/p/pokemon-tcg-tin-mega-darkrai-ex-deutsche-version-vorbestellen-mitte-september"
+    },
+    {
+      "title": "NEUPokemon TCG Tin Mega-Dragoran-ex *Deutsche Version* (Vorbestellen Mitte September)",
+      "url": "https://take-it-shop.de/p/pokemon-tcg-tin-mega-dragoran-ex-deutsche-version-vorbestellen-mitte-september"
+    },
+    {
+      "title": "NEUPokemon TCG Tin Mega-Zeraora-ex *Deutsche Version* (Vorbestellen Mitte September)",
+      "url": "https://take-it-shop.de/p/pokemon-tcg-tin-mega-zeraora-ex-deutsche-version-vorbestellen-mitte-september"
+    },
+    {
+      "title": "Squishmallows Plüschfigur Pokemon Winking Pikachu 25 cm",
+      "url": "https://take-it-shop.de/p/squishmallows-plueschfigur-pokemon-winking-pikachu-25-cm"
+    },
+    {
+      "title": "Pokemon T-Shirt Ash",
+      "url": "https://take-it-shop.de/p/pokemon-t-shirt-ash"
+    },
+    {
+      "title": "Pokemon T-Shirt Glumanda, Bisasam, Schiggy",
+      "url": "https://take-it-shop.de/p/pokemon-t-shirt-glumanda-bisasam-schiggy"
+    },
+    {
+      "title": "Pokemon Flanell-Fleecedecke Starter Pokemon 130 x 160 cm",
+      "url": "https://take-it-shop.de/p/pokemon-flanell-fleecedecke-starter-pokemon-130-x-160-cm"
+    },
+    {
+      "title": "Pokemon Handtuch Pikachu, Schiggy 70 x 140 cm",
+      "url": "https://take-it-shop.de/p/pokemon-handtuch-pikachu-schiggy-70-x-140-cm"
+    },
+    {
+      "title": "Squishmallows Plüschfigur Pokemon Winking Pikachu 35 cm",
+      "url": "https://take-it-shop.de/p/squishmallows-plueschfigur-pokemon-winking-pikachu-35-cm"
+    }
+  ]
+}
