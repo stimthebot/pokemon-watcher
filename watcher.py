@@ -1,6 +1,7 @@
 import time
 import json
 import requests
+import os
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -11,7 +12,7 @@ from datetime import datetime
 INTERVAL = 600
 STATE_FILE = "state.json"
 
-DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1522732210111778877/xF1PyoDBy2YtpK6K_bCxOxcXkyldP-A4ikt-dTuqbsubhcJK4Hra817lGLXR5DLWSw6p"
+DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
