@@ -21,6 +21,8 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run watcher
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}        
         run: python watcher.py
 
       - name: Commit state.json
