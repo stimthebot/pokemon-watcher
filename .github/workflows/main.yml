@@ -1,8 +1,6 @@
 name: Pokemon Watcher
 
 on:
-  schedule:
-    - cron: "*/10 * * * *" # Läuft jetzt alle 10 Minuten
   workflow_dispatch:
 
 jobs:
@@ -14,19 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+        # Python auf dem GitHub-Server einrichten
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+        # Benötigte Python-Bibliotheken installieren
       - name: Install packages
         run: |
           pip install requests beautifulsoup4
 
+        # Den Bot ausführen
       - name: Run watcher
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}        
         run: python watcher.py # Führt deine watcher.py aus
 
+        # Den neuen Zustand der state.json wieder sicher auf GitHub abspeichern
       - name: Commit state.json
         run: |
           git config user.name github-actions
